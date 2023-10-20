@@ -1,5 +1,5 @@
 use anyhow::{Error, Result};
-use aoc19::days::{day1, day2, day3, day4, day5};
+use aoc19::days::{day1, day2, day3, day4, day5, day6};
 use std::{
     env,
     io::{self, Read},
@@ -25,6 +25,8 @@ fn main() -> Result<()> {
         ("4", "b") => day4::part_b(inp),
         ("5", "a") => day5::part_a(inp),
         ("5", "b") => day5::part_b(inp),
+        ("6", "a") => day6::part_a(inp),
+        ("6", "b") => day6::part_b(inp),
         _ => Err(Error::msg("Unknown day/part combination")),
     }?;
 
