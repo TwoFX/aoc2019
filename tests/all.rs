@@ -2,7 +2,7 @@ use paste::paste;
 use std::fs;
 
 macro_rules! test {
-    ($day:ident) => {
+    {$day:ident} => {
         paste! {
             use aoc19::days::$day;
 
