@@ -32,3 +32,4 @@ test! {day4}
 test! {day5}
 test! {day6}
 test! {day7}
+test! {day8}
